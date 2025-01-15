@@ -1,0 +1,17 @@
+.color-swatches {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.swatch {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.swatch:hover {
+    border: 2px solid #000;
+}
