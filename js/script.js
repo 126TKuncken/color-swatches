@@ -6,7 +6,7 @@ $(document).ready(function () {
         $(this).css('background-color', '');
     });
     $('.swatch').click(function () {
-        const newImage = $(this).data('image');
+        const newImage = $(this).data('.img/download.jpg');
         $('..img/download.jpg').attr('src', newImage);
     });
 });
